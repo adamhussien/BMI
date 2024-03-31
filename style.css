@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #F1EEDC;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    padding: 2rem;
+color:#6AD4DD ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+margin: .9rem;
+}
+p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: .4rem;
+}
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #6AD4DD;
+    margin: .4rem;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 1rem;
+    margin: .4rem;
+    flex-direction: column;
+}
+.btn{
+border: none;
+background-color: #6AD4DD;
+padding: .4rem 2rem;
+color: #F1EEDC;
+font-size: 1.2rem;
+text-transform: capitalize;
+border-radius: 10px;
+}
+
+.res{
+    font-size: 1.4rem;
+}
